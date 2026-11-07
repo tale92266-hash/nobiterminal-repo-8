@@ -1,0 +1,326 @@
+Package: angle-android
+Architecture: aarch64
+Installed-Size: 19516
+Maintainer: @termux
+Version: 2.1.24923-f09a19ce-3
+Homepage: https://chromium.googlesource.com/angle/angle
+Description: A conformant OpenGL ES implementation for Windows, Mac, Linux, iOS and Android
+Filename: ./angle-android_2.1.24923-f09a19ce-3_aarch64.deb
+Size: 3005708
+MD5sum: 9170d1c438721aba4735a8f2ebc4e97c
+SHA1: 63f23854055fe21476d5f8a6ae7a5b3f375a601b
+SHA256: 9260978e8cc2d9715b01080422125b015fc6ab12973c4584c5f339fcec2d91bd
+
+Package: bsdtar
+Architecture: aarch64
+Installed-Size: 1528
+Maintainer: @termux
+Version: 3.8.11-1
+Homepage: https://www.libarchive.org/
+Depends: libarchive (= 3.8.11-1)
+Description: The tar(1) and cpio(1) programs from FreeBSD, using libarchive
+Filename: ./bsdtar_3.8.11-1_aarch64.deb
+Size: 356632
+MD5sum: 4db754d9bcfa80631b384e33dd8b6c72
+SHA1: 6e55d79d1d3e240f81f1b752316dcb5948da4017
+SHA256: 875f4ed3f7035af5661e124d641d61a740a17ae79b87dcda039a08f1e00b9dcc
+
+Package: cloneit
+Architecture: aarch64
+Installed-Size: 4036
+Maintainer: @termux
+Version: 20250722-1
+Homepage: https://github.com/alok8bb/cloneit
+Depends: openssl
+Description: A cli tool to download specific GitHub directories or files
+Filename: ./cloneit_20250722-1_aarch64.deb
+Size: 1342476
+MD5sum: 5b1393f999300e5601b9ac03558c3190
+SHA1: 67f1b0f62d88bbf43c3dada89108e71b2a71c06c
+SHA256: 4c43aad8eb42e7849ebb3843ca5d12dc0c2a0983cdc011b3764d45e0681e5c38
+
+Package: flyctl
+Architecture: aarch64
+Installed-Size: 79556
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 0.5.5-1
+Homepage: https://fly.io
+Description: Command line tools for fly.io services
+Filename: ./flyctl_0.5.5-1_aarch64.deb
+Size: 17386984
+MD5sum: 4d5fc278e693201e9052ded739ed6204
+SHA1: 6ea6f28e031d4a89217dc1df7322869a4ea59ee5
+SHA256: 62df9d12f612854fde827698f6c45018f926ab7339ca331f7d4e175b3e28e353
+
+Package: gn
+Architecture: aarch64
+Installed-Size: 2180
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 20260521-1
+Homepage: https://gn.googlesource.com/gn
+Depends: libc++
+Recommends: ninja
+Description: Meta-build system that generates build files for Ninja
+Filename: ./gn_20260521-1_aarch64.deb
+Size: 621652
+MD5sum: 2e2d5a173f7f6ee5fddbc2bcba574fc0
+SHA1: ad34004e47ae18906e17b6dc073a0b48921fe6d7
+SHA256: 6801afbe03b8b0e6eab6d52ce25adb023e354f70e6e5845a52ff9617568cf974
+
+Package: graphene
+Architecture: aarch64
+Installed-Size: 1928
+Maintainer: @termux
+Version: 1.10.8-4
+Homepage: https://ebassi.github.io/graphene/
+Breaks: gst-plugins-base (<< 1.20.3-1)
+Depends: glib
+Conflicts: gst-plugins-base (<< 1.20.3-1)
+Description: A thin layer of graphic data types
+Filename: ./graphene_1.10.8-4_aarch64.deb
+Size: 190744
+MD5sum: a930a88e7551cdc260b831b973c68c45
+SHA1: 0646e84e06776193f7265bee92ba9018ef09434b
+SHA256: 1ab0779ddb18feea5c74776e6ca6fcb6c54d0b3c439e09687d6431a86970c8b4
+
+Package: iconv
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: @termux
+Version: 1.19.1-1
+Homepage: https://www.gnu.org/software/libiconv/
+Depends: libiconv (= 1.19.1-1)
+Description: Utility converting between different character encodings
+Filename: ./iconv_1.19.1-1_aarch64.deb
+Size: 10228
+MD5sum: d981784669da4b30e6a429f9eaa8216c
+SHA1: 36923561dd60438c3c09f06dd4517de921e7c340
+SHA256: 4f42725a949067bf94ce11a81bf454b7d6328e0e926815f5b22a055fb40b523e
+
+Package: influxdb
+Architecture: aarch64
+Installed-Size: 164124
+Maintainer: @termux
+Version: 1.8.10-6
+Homepage: https://www.influxdata.com/
+Description: An open source time series database with no external dependencies
+Filename: ./influxdb_1.8.10-6_aarch64.deb
+Size: 26644836
+MD5sum: 6b2e36e242450f88f1bed83d0d42b87a
+SHA1: 2aabb3f0ce43dca5c149c469cc6a3f03191aa081
+SHA256: 266c45ae279cd12fd3c3e7e3ac9be467b39f7f05f019d5d9a6f584184e458e20
+
+Package: libarchive-static
+Architecture: aarch64
+Installed-Size: 2060
+Maintainer: @termux
+Version: 3.8.11-1
+Homepage: https://www.libarchive.org/
+Depends: libarchive (= 3.8.11-1)
+Description: Static libraries for libarchive
+Filename: ./libarchive-static_3.8.11-1_aarch64.deb
+Size: 366504
+MD5sum: 0d93b45695aae7efe9e60deda9224bab
+SHA1: 4383c3567670ab239e547dde1d3a762a80c9c561
+SHA256: a1054739b61c3d7c3bd1e39dd42117b367331f1d495ac54469ced2ce3fac54e5
+
+Package: libarchive
+Architecture: aarch64
+Installed-Size: 1044
+Maintainer: @termux
+Version: 3.8.11-1
+Homepage: https://www.libarchive.org/
+Breaks: libarchive-dev
+Depends: libbz2, libiconv, liblzma, libxml2, openssl, zlib
+Replaces: libarchive-dev
+Description: Multi-format archive and compression library
+Filename: ./libarchive_3.8.11-1_aarch64.deb
+Size: 397256
+MD5sum: b48d77b4cb719496962039c67b67c5e8
+SHA1: 4cee21f3a9fcfa867bdbe755dd37c3102db4e873
+SHA256: 227547cfe0e8fac42d5a10ffed9b933ca25735d9c0c811ef6137961a29009c92
+
+Package: libexpat-static
+Architecture: aarch64
+Installed-Size: 268
+Maintainer: @termux
+Version: 2.10.0-1
+Homepage: https://libexpat.github.io/
+Depends: libexpat (= 2.10.0-1)
+Description: Static libraries for libexpat
+Filename: ./libexpat-static_2.10.0-1_aarch64.deb
+Size: 62388
+MD5sum: 77c6bdd6ede5beaf1a6f83c3848fadaa
+SHA1: fc9b5d01def43c86796dd75e6bea746377a68c3a
+SHA256: 2ce59a306214735faa4f7ab1b0d31bca52d6d44cc5a2fc3d436a2051e3f26dc4
+
+Package: libexpat
+Architecture: aarch64
+Installed-Size: 424
+Maintainer: @termux
+Version: 2.10.0-1
+Homepage: https://libexpat.github.io/
+Breaks: libexpat-dev
+Replaces: libexpat-dev
+Description: XML parsing C library
+Filename: ./libexpat_2.10.0-1_aarch64.deb
+Size: 102468
+MD5sum: 1f5919cfd2013c3a5a531157dc43a654
+SHA1: 79c629db3758dae1736c970ebf73c22e11f7a665
+SHA256: 2081eb1c8942e6c122c2335a3df09a019d8abf29134bda609550932dd017c0b7
+
+Package: libgxps
+Architecture: aarch64
+Installed-Size: 364
+Maintainer: @termux
+Version: 0.3.2-4
+Homepage: https://wiki.gnome.org/libgxps
+Depends: freetype, glib, libarchive, libcairo, libjpeg-turbo, libpng, libtiff, littlecms
+Description: handling and rendering XPS documents
+Filename: ./libgxps_0.3.2-4_aarch64.deb
+Size: 64004
+MD5sum: 767929f6af2b0948cbb5e3d7842baf0a
+SHA1: cb865892cc74da6dce6875cbe35d5875a22854ac
+SHA256: 4ed687ae720cc4118a8811c30144ee4df005792519ce2ff9218780d5a1bef220
+
+Package: libiconv-static
+Architecture: aarch64
+Installed-Size: 1228
+Maintainer: @termux
+Version: 1.19.1-1
+Homepage: https://www.gnu.org/software/libiconv/
+Depends: libiconv (= 1.19.1-1)
+Description: Static libraries for libiconv
+Filename: ./libiconv-static_1.19.1-1_aarch64.deb
+Size: 557440
+MD5sum: 660ba61bb79ba4266b4e6bbbffa966c4
+SHA1: 8cc26ab3f26407b291670692815db7d9ed9e3c33
+SHA256: 4ec6841283a329e2d01a35ebd6b3416fc693c90e2177c2d44d892f21d73f0dde
+
+Package: libiconv
+Architecture: aarch64
+Installed-Size: 1220
+Maintainer: @termux
+Version: 1.19.1-1
+Homepage: https://www.gnu.org/software/libiconv/
+Breaks: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
+Replaces: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
+Description: An implementation of iconv()
+Filename: ./libiconv_1.19.1-1_aarch64.deb
+Size: 562852
+MD5sum: ebe8ba5de6be43c9feb2ea126132e5c3
+SHA1: d3acbb75b6b95c5797085b94086ff846723db990
+SHA256: ea07de5d56de2fa7f39e71ccaa4a6544259d17a8effdadc691965f1b0b91b05e
+
+Package: libnghttp2-static
+Architecture: aarch64
+Installed-Size: 324
+Maintainer: @termux
+Version: 1.71.0-1
+Homepage: https://nghttp2.org/
+Depends: libnghttp2 (= 1.71.0-1)
+Description: Static libraries for libnghttp2
+Filename: ./libnghttp2-static_1.71.0-1_aarch64.deb
+Size: 64560
+MD5sum: 16375ea46016cdf5132b5a5b44a427e6
+SHA1: 8f7bfe5730a6a16391d0aeeea68b04ea86c7ed8d
+SHA256: 2850ca336eefaa9251b8d363c3374ede691a0a58dc049530a5e58b1405520134
+
+Package: libnghttp2
+Architecture: aarch64
+Installed-Size: 520
+Maintainer: @termux
+Version: 1.71.0-1
+Homepage: https://nghttp2.org/
+Breaks: libnghttp2-dev
+Replaces: libnghttp2-dev
+Description: nghttp HTTP 2.0 library
+Filename: ./libnghttp2_1.71.0-1_aarch64.deb
+Size: 96356
+MD5sum: 0bcdf66b0dfee393b05f02eaf9933a1a
+SHA1: 6ecee74c0c13de8083a523fb4a3efad34433a925
+SHA256: 0517c3ebbcfbdc16f54def4b145c5285eb543bc025ae94141151fbc4f444fafd
+
+Package: libnghttp3-static
+Architecture: aarch64
+Installed-Size: 336
+Maintainer: @termux
+Version: 1.19.0-1
+Homepage: https://nghttp2.org/nghttp3/
+Depends: libnghttp3 (= 1.19.0-1)
+Description: Static libraries for libnghttp3
+Filename: ./libnghttp3-static_1.19.0-1_aarch64.deb
+Size: 63712
+MD5sum: c8d4cacacb7aab947f0232e1d1f4a133
+SHA1: 2ba9d078bb426fadd4439cdf4f0df44851bb85fa
+SHA256: b5ccf791409033835a0ed475bc07ed8a6246d2f06623aaa0f473f2e6b0398c87
+
+Package: libnghttp3
+Architecture: aarch64
+Installed-Size: 348
+Maintainer: @termux
+Version: 1.19.0-1
+Homepage: https://nghttp2.org/nghttp3/
+Essential: yes
+Description: HTTP/3 library written in C
+Filename: ./libnghttp3_1.19.0-1_aarch64.deb
+Size: 69860
+MD5sum: 14da925832d54be3452cb41dadbf28af
+SHA1: bb979325ad99fcfaae458680fcd1c11172c065da
+SHA256: 0640ca9de1cfb15be8caf2ee642723a9999ff16064a949897e7be5ce640490a3
+
+Package: libngtcp2-static
+Architecture: aarch64
+Installed-Size: 852
+Maintainer: @termux
+Version: 1.26.0-1
+Homepage: https://github.com/ngtcp2/ngtcp2
+Depends: libngtcp2 (= 1.26.0-1)
+Description: Static libraries for libngtcp2
+Filename: ./libngtcp2-static_1.26.0-1_aarch64.deb
+Size: 154672
+MD5sum: 9cbca6fd071b5cdc5c3419a4412e709b
+SHA1: 8948df83c019af39d313a1e3b3bb8b444e646a50
+SHA256: 4f531b633fa6be055578f57cddc6fe2dab706f77b242b032aa984009d696f0b1
+
+Package: libngtcp2
+Architecture: aarch64
+Installed-Size: 796
+Maintainer: @termux
+Version: 1.26.0-1
+Homepage: https://github.com/ngtcp2/ngtcp2
+Depends: openssl
+Description: Implementation of IETF QUIC protocol
+Filename: ./libngtcp2_1.26.0-1_aarch64.deb
+Size: 175104
+MD5sum: d94949f1d7ada50d4de6c39be954ad0f
+SHA1: b423e70cf457b9f61694e6d3269b47f70fd28df9
+SHA256: d79630c426fe711c83020dc07fc16515592dacdd12cfc9c43f292ab637585d4f
+
+Package: maxima
+Architecture: aarch64
+Installed-Size: 93480
+Maintainer: @termux
+Version: 5.50.0-1
+Homepage: https://maxima.sourceforge.io/
+Depends: ecl
+Description: A Computer Algebra System
+Filename: ./maxima_5.50.0-1_aarch64.deb
+Size: 27619264
+MD5sum: 8b5ff947118974aa0c20e3b74adc3da1
+SHA1: 03ca2c317c527a0d310f91efefe738cbee53a147
+SHA256: c40240fe78b6a8b0cb0aba0531b9e9227ba8632e8a0c9079233bb2806ce08951
+
+Package: mise
+Architecture: aarch64
+Installed-Size: 187476
+Maintainer: @termux
+Version: 2026.11.3-1
+Homepage: https://mise.jdx.dev/
+Depends: bzip2, openssl
+Description: dev tools, env vars, task runner
+Filename: ./mise_2026.11.3-1_aarch64.deb
+Size: 41565156
+MD5sum: 82dd839702fbf21210ccc4e6a1369cd6
+SHA1: 9f051e265b52d843ad9e36c6051fe57a86edafa3
+SHA256: a1098b1b5ec0fc03c76cb1a3ebfa683992acb5307c923a1459efaef124a7cb4b
