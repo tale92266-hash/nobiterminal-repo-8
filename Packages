@@ -662,6 +662,35 @@ MD5sum: b5ad08b8e72f5d904badddb7189cc301
 SHA1: 16e38c2ac2d8a93ca2b6516bd90e69e499ea2fbb
 SHA256: 9507dad0db2cbca7d814e62c351752b41277d42f93fdd477941fb80f0e2d0541
 
+Package: lfortran-static
+Architecture: aarch64
+Installed-Size: 24968
+Maintainer: @termux
+Version: 0.68.0-1
+Homepage: https://lfortran.org/
+Depends: lfortran (= 0.68.0-1)
+Description: Static libraries for lfortran
+Filename: ./lfortran-static_0.68.0-1_aarch64.deb
+Size: 2291008
+MD5sum: ddf692df29c9b3b6cc16d3e0e2013ab4
+SHA1: 2a2540860babf87dfb8ac5f3574e8534cf535bd9
+SHA256: f4761f3ff08b957ac0690605d0ba6273feeb241aed9ad721e68760d3eab7767f
+
+Package: lfortran
+Architecture: aarch64
+Installed-Size: 80584
+Maintainer: @termux
+Version: 0.68.0-1
+Homepage: https://lfortran.org/
+Depends: clang, libandroid-complex-math, libc++, ncurses, zlib, zstd
+Suggests: libkokkos
+Description: A modern open-source interactive Fortran compiler
+Filename: ./lfortran_0.68.0-1_aarch64.deb
+Size: 17415412
+MD5sum: 15b110de1d9793f4cb2b0ed380ad5a0e
+SHA1: 4356eea34a728bcf390c4102405eb24032ede97b
+SHA256: 8f64ad367a8bbd2f31ddf6d732b87086cca5cde762ab0eaf990304707bf4419c
+
 Package: libaom-static
 Architecture: aarch64
 Installed-Size: 9176
@@ -1951,6 +1980,19 @@ Size: 25872
 MD5sum: 68c77aef48a79c15d80396d36e4659b3
 SHA1: 803097847184f505d341d98750278aff8828120e
 SHA256: da5a9ab364473f525e326a1f12bbc102591c0125922570f87407110dcc952103
+
+Package: svt-av1
+Architecture: aarch64
+Installed-Size: 4468
+Maintainer: @termux
+Version: 4.3.0-1
+Homepage: https://gitlab.com/AOMediaCodec/SVT-AV1
+Description: Scalable Video Technology for AV1 (SVT-AV1 Encoder and Decoder)
+Filename: ./svt-av1_4.3.0-1_aarch64.deb
+Size: 1519676
+MD5sum: 3981323799d00aa7d630dd767869aece
+SHA1: 73519324c5ae3a683c7c5a448872ad3c128e5c54
+SHA256: 2658cdfd062a0c0be3ecb5adfbc09ba7fc319d89aa52d45528772ef43498eb43
 
 Package: swiftshader
 Architecture: aarch64
