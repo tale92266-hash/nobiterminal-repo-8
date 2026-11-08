@@ -110,6 +110,20 @@ MD5sum: 4db754d9bcfa80631b384e33dd8b6c72
 SHA1: 6e55d79d1d3e240f81f1b752316dcb5948da4017
 SHA256: 875f4ed3f7035af5661e124d641d61a740a17ae79b87dcda039a08f1e00b9dcc
 
+Package: ccls
+Architecture: aarch64
+Installed-Size: 1568
+Maintainer: @termux
+Version: 0.20261004-1
+Homepage: https://github.com/MaskRay/ccls
+Depends: clang, libc++, libllvm
+Description: C/C++/ObjC language server
+Filename: ./ccls_0.20261004-1_aarch64.deb
+Size: 427388
+MD5sum: 6e7ba06268641b38814c27928506dc79
+SHA1: f40e53f41f4f0d629642c8f3d0c4e2be51188494
+SHA256: c2c29df4c35df0028af80e4e3a101325de2014874949a8305e078a8730e3ff60
+
 Package: cloneit
 Architecture: aarch64
 Installed-Size: 4036
@@ -646,6 +660,20 @@ Size: 289796
 MD5sum: e223ebcce2fcd5a7c5096928774d720c
 SHA1: 7d6c59af98f183c3a82d70e4199bac67455ded25
 SHA256: d0f134fd1aec512c476fe0e04ea55e7e9566e75fea69ec0cddb31744ea2905c5
+
+Package: inshellisense
+Architecture: aarch64
+Installed-Size: 89900
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 0.0.4-1
+Homepage: https://github.com/microsoft/inshellisense
+Depends: nodejs | nodejs-lts
+Description: IDE style command line auto complete
+Filename: ./inshellisense_0.0.4-1_aarch64.deb
+Size: 6127880
+MD5sum: f32b606f1a3d3b9222f1a37d852a8a74
+SHA1: dcec385aea9f178a29dfea1cbcc2d03cba41c2e0
+SHA256: 2a875d65047efda146f08ae09c2afc42975eeb50a890d54e3f3efc178a46216d
 
 Package: keychain
 Architecture: all
