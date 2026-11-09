@@ -27,6 +27,20 @@ MD5sum: 7a072a17d11a86fb4701d5c3fd7366ab
 SHA1: f579fd11c69e263db1530fa72c56caeb1732ebff
 SHA256: 061b9c1836ec00ea005e45058874ec0e8185c0c4882486a9954a22a1949f51b7
 
+Package: alpine
+Architecture: aarch64
+Installed-Size: 9196
+Maintainer: @termux
+Version: 2.26-3
+Homepage: http://alpine.x10host.com/
+Depends: coreutils, libcrypt, ncurses, openssl, openssl-tool
+Description: Fast, easy to use email client
+Filename: ./alpine_2.26-3_aarch64.deb
+Size: 1773312
+MD5sum: 14180d734afc7649b2e30772ade4306b
+SHA1: 47a32b4e24a141d7693f11ba3652708936a564dc
+SHA256: 44c2023a770818bcf9383add4ef6f41b8c64b824c18fb49b8c982db46a649a7c
+
 Package: angle-android
 Architecture: aarch64
 Installed-Size: 19516
