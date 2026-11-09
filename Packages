@@ -278,6 +278,20 @@ MD5sum: e541473c08820bb006fbfef054e50215
 SHA1: 80941d4d92320695774328b50c6e1f4db130ae94
 SHA256: 8b0274cc162ad7bc69f640f969ea2e50500ddf60e972dbcdc8efdebffddd0f37
 
+Package: darcs
+Architecture: aarch64
+Installed-Size: 47956
+Maintainer: Aditya Alok <alok@termux.dev>
+Version: 2.18.5-1
+Homepage: https://darcs.net/
+Depends: libffi, libiconv, libgmp, libandroid-posix-semaphore, libandroid-utimes, ca-certificates, ncurses, zlib
+Description: A distributed, interactive, smart revision control system
+Filename: ./darcs_2.18.5-1_aarch64.deb
+Size: 6403172
+MD5sum: 0b31144f0f62c04f2781d69f02c3fc15
+SHA1: 3a658fbdbfadacedb0255a139d92aee0f0cdd176
+SHA256: b69b73721b1ef0682599e2399ece59be3c4769deb19385fa2e6da9e187c84264
+
 Package: desed
 Architecture: aarch64
 Installed-Size: 1204
@@ -2078,6 +2092,20 @@ MD5sum: 1aa0245f7e5557378493ed687d3c5877
 SHA1: 759996fd561f6703b760d701c47ef619b4a88422
 SHA256: 675d52a241ea664ef474c3bb67d91acd66a26335016fecd44a044904ff25e8e9
 
+Package: pandoc
+Architecture: aarch64
+Installed-Size: 268356
+Maintainer: Aditya Alok <alok@termux.dev>
+Version: 3.13-1
+Homepage: https://pandoc.org/
+Depends: libffi, libiconv, libgmp, lua54, zlib, libandroid-posix-semaphore, libandroid-utimes
+Description: Universal markup converter
+Filename: ./pandoc_3.13-1_aarch64.deb
+Size: 30291884
+MD5sum: 86533178dcb03ee1bcb1832a3b4ff0c2
+SHA1: 17b0cc52c8974f0b0d9bbf07eca35b51c676d294
+SHA256: 128d507d7bb68f3511b006fd5ab60c4a7600ffc72acabce5ff6b48fe38b2497c
+
 Package: pass-otp
 Architecture: all
 Installed-Size: 100
@@ -2760,6 +2788,20 @@ Size: 5870024
 MD5sum: bbabd68a0b7db08fd8ae94494e0a2a41
 SHA1: f8d167ce6c2817fd0c4d9da1fdccd9c8d7b21805
 SHA256: 6ec2fce632a406a05d74376f78d7c3d8dc3ddb89ac113669787701190bd5d6ee
+
+Package: xmppc
+Architecture: aarch64
+Installed-Size: 116
+Maintainer: @termux
+Version: 0.1.2-5
+Homepage: https://codeberg.org/Anoxinon_e.V./xmppc
+Depends: libstrophe, glib, gpgme
+Description: Command Line Interface Tool for XMPP
+Filename: ./xmppc_0.1.2-5_aarch64.deb
+Size: 20392
+MD5sum: 6b869f1c99f913f7752fd8f4ede48fea
+SHA1: 71cc9081c6afe3088ed503dfbbd178e46cbe18bd
+SHA256: 14e44e8c6de616e16980026dd780ee47d7e88e3341c0d26c25a262484835990f
 
 Package: xxd
 Architecture: aarch64
