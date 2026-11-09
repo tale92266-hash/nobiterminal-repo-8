@@ -138,6 +138,61 @@ MD5sum: 5b1393f999300e5601b9ac03558c3190
 SHA1: 67f1b0f62d88bbf43c3dada89108e71b2a71c06c
 SHA256: 4c43aad8eb42e7849ebb3843ca5d12dc0c2a0983cdc011b3764d45e0681e5c38
 
+Package: clpeak
+Architecture: aarch64
+Installed-Size: 1648
+Maintainer: @termux
+Version: 3.0.5-1
+Homepage: https://github.com/krrishnarraj/clpeak
+Depends: libc++, ocl-icd
+Description: A tool which profiles OpenCL devices to find their peak capacities
+Filename: ./clpeak_3.0.5-1_aarch64.deb
+Size: 471988
+MD5sum: 45bf8320dafe145e78452e02e221dc66
+SHA1: 1977ca81efcf017185b31020016577b8cd761f09
+SHA256: 2632904d329dbe894d2d114982220620e9e2fdbf7d7f523441eeee490ccd57bb
+
+Package: command-not-found
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 3.5.0-20
+Homepage: https://github.com/termux/command-not-found
+Depends: libc++
+Description: Suggest installation of packages in interactive shell sessions
+Filename: ./command-not-found_3.5.0-20_aarch64.deb
+Size: 16964
+MD5sum: c9489495901ff02c7400c5112ee67982
+SHA1: caf6c16612be7ce165335afbf28d74139484b587
+SHA256: 15c32717ea75d5af8d93c2c5f05f232a2f63b0da6210a7334d09dc9bc44eed1d
+
+Package: cookcli
+Architecture: aarch64
+Installed-Size: 25684
+Maintainer: @termux
+Version: 0.41.0-1
+Homepage: https://cooklang.org
+Depends: openssl
+Description: A suite of tools to create shopping lists and maintain food recipes
+Filename: ./cookcli_0.41.0-1_aarch64.deb
+Size: 8903844
+MD5sum: 630fbb62476c6fcbb57a11bca7e28dfc
+SHA1: 91112883a0a80864d2fda178ce20147853c20af1
+SHA256: 6a06edb2f57b9a9daa4dde1a84660ecf140e911f4287ef50c376d03dfd8f5ae7
+
+Package: croc
+Architecture: aarch64
+Installed-Size: 22380
+Maintainer: @termux
+Version: 1:11.6.5-1
+Homepage: https://github.com/schollz/croc
+Description: Easily and securely send things from one computer to another
+Filename: ./croc_1:11.6.5-1_aarch64.deb
+Size: 5721832
+MD5sum: 73505e227fc9453023c5c80152a04bf6
+SHA1: e94a85316f7ba1e61e0c6c02af25755085365aa0
+SHA256: 20baa2cac4ae607ed5283fcc0bb7ff36766db9c0376f362d21c9620f0106ace1
+
 Package: desed
 Architecture: aarch64
 Installed-Size: 1204
@@ -428,6 +483,21 @@ MD5sum: a930a88e7551cdc260b831b973c68c45
 SHA1: 0646e84e06776193f7265bee92ba9018ef09434b
 SHA256: 1ab0779ddb18feea5c74776e6ca6fcb6c54d0b3c439e09687d6431a86970c8b4
 
+Package: groff
+Architecture: aarch64
+Installed-Size: 33664
+Maintainer: @termux
+Version: 1.25.0-1
+Homepage: https://www.gnu.org/software/groff/
+Depends: libc++, mandoc, perl, uchardet
+Suggests: ghostscript
+Description: typesetting system that reads plain text mixed with formatting commands and produces formatted output
+Filename: ./groff_1.25.0-1_aarch64.deb
+Size: 6054616
+MD5sum: 7cb32dfdfbd56beb4de0684070ad4ff1
+SHA1: e83585d6e079b2676a8165619d51c59a70be8ad3
+SHA256: c3e19ec2429ee79567532a29faf2b179b400b160fbfab73f77b99785e92344a8
+
 Package: gst-plugins-base
 Architecture: aarch64
 Installed-Size: 12432
@@ -675,6 +745,20 @@ MD5sum: f32b606f1a3d3b9222f1a37d852a8a74
 SHA1: dcec385aea9f178a29dfea1cbcc2d03cba41c2e0
 SHA256: 2a875d65047efda146f08ae09c2afc42975eeb50a890d54e3f3efc178a46216d
 
+Package: janet
+Architecture: aarch64
+Installed-Size: 792
+Maintainer: Komo @mbekkomo
+Version: 1.43.0-1
+Homepage: https://janet-lang.org
+Depends: libjanet (= 1.43.0-1)
+Description: Janet is a dialect of Lisp intended for embedding into programs and such
+Filename: ./janet_1.43.0-1_aarch64.deb
+Size: 259776
+MD5sum: 43bdc604bac6d07dad3faf80e20814c1
+SHA1: f6745f30dac4afd94816faa2fd25101783027206
+SHA256: 637cc7f6fac7d2db1ecefe51096c6c8d2a2ffcd7caed8c575939cdce720fca66
+
 Package: keychain
 Architecture: all
 Installed-Size: 160
@@ -689,6 +773,21 @@ Size: 119308
 MD5sum: b5ad08b8e72f5d904badddb7189cc301
 SHA1: 16e38c2ac2d8a93ca2b6516bd90e69e499ea2fbb
 SHA256: 9507dad0db2cbca7d814e62c351752b41277d42f93fdd477941fb80f0e2d0541
+
+Package: lazygit
+Architecture: aarch64
+Installed-Size: 21736
+Maintainer: Krishna kanhaiya @kcubeterm
+Version: 0.66.3-1
+Homepage: https://github.com/jesseduffield/lazygit
+Recommends: git
+Suggests: diff-so-fancy
+Description: Simple terminal UI for git commands
+Filename: ./lazygit_0.66.3-1_aarch64.deb
+Size: 5043768
+MD5sum: faaf4984964ddf171262a73f42a028f7
+SHA1: 6a1281b3a7c877415e36592a018fce37c49f16a7
+SHA256: bcd9b8fb1839f38d33ba2d2316f5677ba131f1de104ef8e689c20733c794aee2
 
 Package: lfortran-static
 Architecture: aarch64
@@ -943,6 +1042,34 @@ Size: 24304
 MD5sum: 65dda463e3ae2ee7e95f5be8b6bdee3f
 SHA1: b1e37ae218a243ec548e56c7d89dbbfc62e3ac20
 SHA256: e300dff9af1fe3ef2eefe4a06c7e6dc38ec2cab3d1dc8d8113f8ebcfc32cc189
+
+Package: libjanet-static
+Architecture: aarch64
+Installed-Size: 1104
+Maintainer: Komo @mbekkomo
+Version: 1.43.0-1
+Homepage: https://janet-lang.org
+Depends: libjanet (= 1.43.0-1)
+Description: Static libraries for libjanet
+Filename: ./libjanet-static_1.43.0-1_aarch64.deb
+Size: 285772
+MD5sum: e58d5518efe6f69dbc275296bf4e25a4
+SHA1: a149f742ce9cd60fafcc946cfea935110acaf730
+SHA256: d5a75c846c7950d7fbf9e1665fa9c37eae77c0ebb3ae68ae0c8cef646d4d6ea5
+
+Package: libjanet
+Architecture: aarch64
+Installed-Size: 964
+Maintainer: Komo @mbekkomo
+Version: 1.43.0-1
+Homepage: https://janet-lang.org
+Depends: libandroid-spawn
+Description: Development library for Janet
+Filename: ./libjanet_1.43.0-1_aarch64.deb
+Size: 291264
+MD5sum: a4b346b445135246eb381cbc39cf0dee
+SHA1: 4a597b871609e543f131285869315b901986cf6f
+SHA256: 44fcbd00833100ce5b098f484c8a4b291649eeeb1be3fd2419583313eb38eb6e
 
 Package: liblz4
 Architecture: aarch64
@@ -1359,6 +1486,19 @@ MD5sum: 6506dbc5343cc9bf43047a91505ee1ae
 SHA1: 0be10c1b5d377e4eb30c9e77d9dfb48b7b00a7a4
 SHA256: 4eeeb2f401141cc298ca08f70769c472047e4401f08df886cfcd6ab1c7832c77
 
+Package: luau
+Architecture: aarch64
+Installed-Size: 14736
+Maintainer: @termux
+Version: 0.746-1
+Homepage: https://github.com/luau-lang/luau
+Description: A small, fast, and embeddable programming language based on Lua with a gradual type system.
+Filename: ./luau_0.746-1_aarch64.deb
+Size: 2428592
+MD5sum: a26f368cdc9e870ebe37fae2e6abebc4
+SHA1: d83bef7792fc11ef4d94ac4f50a13b2f2d33e8b9
+SHA256: f1fe93512b28ca49e11a037ad957a590399646e711c5dc1fe63d6335c326d78a
+
 Package: luv
 Architecture: aarch64
 Installed-Size: 292
@@ -1404,6 +1544,19 @@ MD5sum: aa5a8fbc0376a7336a42beaecd696e13
 SHA1: 9d5b1a5de2d2e69de7d2256da05a88ef7e9cced8
 SHA256: 2e083021857b96f529c94d6754080bea80fbf371c76c81d95ef8a51135bb22b2
 
+Package: mailpit
+Architecture: aarch64
+Installed-Size: 26820
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 1.33.1-1
+Homepage: https://mailpit.axllent.org
+Description: An email and SMTP testing tool with API for developers
+Filename: ./mailpit_1.33.1-1_aarch64.deb
+Size: 7437200
+MD5sum: 5ad92463ee5f98e2f821afb9436e7fd7
+SHA1: 1a28069dc999097843ac9676ae24e7dc8a8ed961
+SHA256: 433d246662e92595670fe07a89b840a7af2b53e6ea58422fe996a11297ac55ec
+
 Package: maxima
 Architecture: aarch64
 Installed-Size: 93480
@@ -1431,6 +1584,20 @@ Size: 41565156
 MD5sum: 82dd839702fbf21210ccc4e6a1369cd6
 SHA1: 9f051e265b52d843ad9e36c6051fe57a86edafa3
 SHA256: a1098b1b5ec0fc03c76cb1a3ebfa683992acb5307c923a1459efaef124a7cb4b
+
+Package: mise
+Architecture: aarch64
+Installed-Size: 187572
+Maintainer: @termux
+Version: 2026.11.4-1
+Homepage: https://mise.jdx.dev/
+Depends: bzip2, openssl
+Description: dev tools, env vars, task runner
+Filename: ./mise_2026.11.4-1_aarch64.deb
+Size: 41637220
+MD5sum: 1251df8fbbd83bce28672d764a7d576b
+SHA1: 5026f02194d5d7293a08476f5d7eb5bd8527a079
+SHA256: 0a0458a702f10d9a2354ba7e3943d7a0ed681fd9b572fcfd08e72070dd3acd8b
 
 Package: muchsync
 Architecture: aarch64
@@ -1505,6 +1672,22 @@ Size: 6261656
 MD5sum: 18b5aaad98ac9d7e02179ab897d9d531
 SHA1: cf32edc7e4898873443c138fc05183df28c9321b
 SHA256: f271423794aed9b70ee21aaa31f3138aa5b49008d212ceaf6a77210c8f065a83
+
+Package: neovim-nightly
+Architecture: aarch64
+Installed-Size: 33840
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.13.0~dev-2052+gc868e1ab3d-1
+Homepage: https://neovim.io/
+Breaks: neovim
+Depends: libandroid-support, libiconv, libmsgpack, libunibilium, libuv, libvterm (>= 1:0.3-0), lua51-lpeg, luajit, luv, tree-sitter, tree-sitter-parsers, utf8proc
+Conflicts: neovim
+Description: Ambitious Vim-fork focused on extensibility and agility (nvim-nightly)
+Filename: ./neovim-nightly_0.13.0~dev-2052+gc868e1ab3d-1_aarch64.deb
+Size: 6265708
+MD5sum: 548910cc4eaf7a2195dd9bf8635f51c5
+SHA1: c7416388117372e4265407dab45c8a47e92b421b
+SHA256: 229b41b85be3beaa699a271ee45a116289f0c86d4d0912020ddf32a3c238d4ae
 
 Package: newsboat
 Architecture: aarch64
