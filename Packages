@@ -83,6 +83,19 @@ MD5sum: 9297293324095648d5da38319769cea3
 SHA1: be7e8dcbaa23f3ab33325671233ae5dadf6dcb99
 SHA256: 541e2c5c96336d29356a979c074a6910bba887caec13f237d41b78d3db160122
 
+Package: astyle
+Architecture: aarch64
+Installed-Size: 1040
+Maintainer: @termux
+Version: 3.6.23-1
+Homepage: https://astyle.sourceforge.net/
+Description: Source code formatter for C-like programming languages
+Filename: ./astyle_3.6.23-1_aarch64.deb
+Size: 214244
+MD5sum: 42d92b60ff1443075059b2a8635e239b
+SHA1: 0ec2b913a079cdcb73abfbc15153b600dc77b10d
+SHA256: 4cf2be361c2fab0d8345f649c33a3aa379166ba25faa9724a034dec63f251716
+
 Package: azure-dev-cli
 Architecture: aarch64
 Installed-Size: 61728
@@ -109,6 +122,20 @@ Size: 356632
 MD5sum: 4db754d9bcfa80631b384e33dd8b6c72
 SHA1: 6e55d79d1d3e240f81f1b752316dcb5948da4017
 SHA256: 875f4ed3f7035af5661e124d641d61a740a17ae79b87dcda039a08f1e00b9dcc
+
+Package: ccache
+Architecture: aarch64
+Installed-Size: 2272
+Maintainer: @termux
+Version: 4.14.3-1
+Homepage: https://ccache.samba.org
+Depends: fmt, libandroid-spawn, libc++, libhiredis, xxhash, zlib, zstd
+Description: Compiler cache for fast recompilation of C/C++ code
+Filename: ./ccache_4.14.3-1_aarch64.deb
+Size: 565144
+MD5sum: c7e42a80e0eea2c9cf43aa2e95a2940b
+SHA1: 0c904b522c3c10e47e706a7f5101ef7d3bfb188e
+SHA256: 315098a571d1dfb2d086d4cb5abe33fced6c9123c3e7b7e7326ec1be540f159a
 
 Package: ccls
 Architecture: aarch64
@@ -483,6 +510,36 @@ MD5sum: a930a88e7551cdc260b831b973c68c45
 SHA1: 0646e84e06776193f7265bee92ba9018ef09434b
 SHA256: 1ab0779ddb18feea5c74776e6ca6fcb6c54d0b3c439e09687d6431a86970c8b4
 
+Package: graphviz-static
+Architecture: aarch64
+Installed-Size: 4168
+Maintainer: @termux
+Version: 16.1.1-1
+Homepage: https://www.graphviz.org/
+Depends: graphviz (= 16.1.1-1)
+Description: Static libraries for graphviz
+Filename: ./graphviz-static_16.1.1-1_aarch64.deb
+Size: 761936
+MD5sum: 7aa0f493e035960a22a5fc864469bc26
+SHA1: 1f05767e8a8489264306aafe53264b3432c18ac3
+SHA256: 2623c87ed7bc7ed0109f7be72d24870917b3980de018d4be9abd4e465f7014b5
+
+Package: graphviz
+Architecture: aarch64
+Installed-Size: 10688
+Maintainer: @termux
+Version: 16.1.1-1
+Homepage: https://www.graphviz.org/
+Breaks: graphviz-dev
+Depends: fontconfig, freetype, gdk-pixbuf, glib, harfbuzz, libandroid-glob, libc++, libcairo, libexpat, libgd, libgts, libltdl, librsvg, libwebp, pango, zlib
+Replaces: graphviz-dev
+Description: Rich set of graph drawing tools
+Filename: ./graphviz_16.1.1-1_aarch64.deb
+Size: 3032176
+MD5sum: ef0376996d94ed7426bce45b5953e9fc
+SHA1: 96329aea4e4c63c277fd41d6cf887c4da403c2dd
+SHA256: d4b7c265ffb6f4b0166558de2e7e5d057a2121136dbde40e061cceb61609c21c
+
 Package: groff
 Architecture: aarch64
 Installed-Size: 33664
@@ -661,6 +718,20 @@ MD5sum: d981784669da4b30e6a429f9eaa8216c
 SHA1: 36923561dd60438c3c09f06dd4517de921e7c340
 SHA256: 4f42725a949067bf94ce11a81bf454b7d6328e0e926815f5b22a055fb40b523e
 
+Package: icu-devtools
+Architecture: aarch64
+Installed-Size: 944
+Maintainer: @termux
+Version: 79.1-1
+Homepage: http://site.icu-project.org/home
+Depends: libicu (= 79.1-1)
+Description: Development utilities for International Components for Unicode
+Filename: ./icu-devtools_79.1-1_aarch64.deb
+Size: 204984
+MD5sum: 60e8092de5facd4ce47206b1f96b8620
+SHA1: 6dd4953e2236f271996e79a6210ff844bbd1d7d7
+SHA256: 44bc64ae5a389044d06dcc0c5614e1c7baa2ef100665f722282a81067d450586
+
 Package: imagemagick-static
 Architecture: aarch64
 Installed-Size: 9948
@@ -718,6 +789,20 @@ MD5sum: c401d95c23fdc06bfefc78be5511ca60
 SHA1: 069f8d291ffd8fb6e464dfed89af8aac7969fba4
 SHA256: 1efbc8f58ba376ca69d7bb649ee6601dbbadf500591b278565223c4f478dcbc3
 
+Package: inotify-tools-static
+Architecture: aarch64
+Installed-Size: 24456
+Maintainer: @termux
+Version: 4.26.275-1
+Homepage: https://github.com/rvoicilas/inotify-tools/wiki
+Depends: inotify-tools (= 4.26.275-1)
+Description: Static libraries for inotify-tools
+Filename: ./inotify-tools-static_4.26.275-1_aarch64.deb
+Size: 4262800
+MD5sum: e860b3b627d9341ec384243aef856223
+SHA1: 4a43691cb0461948abfe7533de0d1c796b3cec39
+SHA256: 2bc3c22b7b8a9df7d4f92dfd7aaad3e9c8a24eb46943e6fbbf0df6733029783f
+
 Package: inotify-tools
 Architecture: aarch64
 Installed-Size: 1260
@@ -730,6 +815,19 @@ Size: 289796
 MD5sum: e223ebcce2fcd5a7c5096928774d720c
 SHA1: 7d6c59af98f183c3a82d70e4199bac67455ded25
 SHA256: d0f134fd1aec512c476fe0e04ea55e7e9566e75fea69ec0cddb31744ea2905c5
+
+Package: inotify-tools
+Architecture: aarch64
+Installed-Size: 1260
+Maintainer: @termux
+Version: 4.26.275-1
+Homepage: https://github.com/rvoicilas/inotify-tools/wiki
+Description: Programs providing a simple interface to inotify
+Filename: ./inotify-tools_4.26.275-1_aarch64.deb
+Size: 289956
+MD5sum: 7499aff5c35e9616b7e7543c5a30b67a
+SHA1: 249ce147e4d8779c116b4a6c318fbc8ac66e2642
+SHA256: 32fdf8ba4de32e9a3a162923ca17aae1ed6cf9ed37a4019d5289124d16b6cedf
 
 Package: inshellisense
 Architecture: aarch64
@@ -1028,6 +1126,36 @@ Size: 562852
 MD5sum: ebe8ba5de6be43c9feb2ea126132e5c3
 SHA1: d3acbb75b6b95c5797085b94086ff846723db990
 SHA256: ea07de5d56de2fa7f39e71ccaa4a6544259d17a8effdadc691965f1b0b91b05e
+
+Package: libicu-static
+Architecture: aarch64
+Installed-Size: 45748
+Maintainer: @termux
+Version: 79.1-1
+Homepage: http://site.icu-project.org/home
+Depends: libicu (= 79.1-1)
+Description: Static libraries for libicu
+Filename: ./libicu-static_79.1-1_aarch64.deb
+Size: 10088212
+MD5sum: dcd2f09c085caacb3c60bcde25c27cc1
+SHA1: 77582de9c6aee3a521384cf74726bd851e690bee
+SHA256: 5929242103c11a778e5cbbacf3f574bff74c1544fa67ef0ba2775e7105570160
+
+Package: libicu
+Architecture: aarch64
+Installed-Size: 44152
+Maintainer: @termux
+Version: 79.1-1
+Homepage: http://site.icu-project.org/home
+Breaks: libicu-dev
+Depends: libc++
+Replaces: libicu-dev
+Description: International Components for Unicode library
+Filename: ./libicu_79.1-1_aarch64.deb
+Size: 10313652
+MD5sum: 9a09888a0cc42847c17f37e419485796
+SHA1: de1ed07258a28132a6c54894f066bc818a28a63b
+SHA256: 7a8a3210b25e343bf3a846b95c277fa853899df84bcda26baefcd91e3c81389f
 
 Package: libinih
 Architecture: aarch64
@@ -1734,6 +1862,19 @@ MD5sum: 64a841c74240fc4b1bcb2553db33ce4a
 SHA1: 067692c1401a77c3fdb774ed507f93637c20c2b4
 SHA256: 854c56c499b12038d8a6421ea94b9a91a3527898ec35796b891c1fb6e0f12601
 
+Package: oh-my-posh
+Architecture: aarch64
+Installed-Size: 15100
+Maintainer: @termux
+Version: 32.0.0-1
+Homepage: https://ohmyposh.dev
+Description: A prompt theme engine for any shell.
+Filename: ./oh-my-posh_32.0.0-1_aarch64.deb
+Size: 3831616
+MD5sum: 82a983be917b11a1d4b31e33eb607a93
+SHA1: 2a01e2803c26c8c0ba3820c29daec3b8ce1263f0
+SHA256: 505f001c4a2e5d039bbca995e6a5efb161cca8e90e3668931e2715a661a9d3b0
+
 Package: ollama-backend-vulkan
 Architecture: aarch64
 Installed-Size: 26388
@@ -1894,6 +2035,150 @@ Size: 8571828
 MD5sum: 50b211f45d2adcca514ca38d5ae07a33
 SHA1: 4cb4609cae85c12ce4314fd546004ed2f8a55a8b
 SHA256: e71323a79b21b6c43b3d714b8eefd4805f3bf99b613d3a11642dc900dcae1894
+
+Package: php-apache-ldap
+Architecture: aarch64
+Installed-Size: 168
+Maintainer: @termux
+Version: 8.5.12-3
+Homepage: https://php.net
+Depends: openldap, php-apache, php (= 8.5.12-3)
+Description: LDAP module for PHP/Apache
+Filename: ./php-apache-ldap_8.5.12-3_aarch64.deb
+Size: 26248
+MD5sum: d8e85b311f2ed85f335854e95ae0387e
+SHA1: bdca302afc8fe9edf493324b1eb9ea54db8fd159
+SHA256: 121d3feaa6d27d3eb0ed276997f2e814df92694a537fb75c463e1fc13ff9ca76
+
+Package: php-apache-pgsql
+Architecture: aarch64
+Installed-Size: 304
+Maintainer: @termux
+Version: 8.5.12-3
+Homepage: https://php.net
+Depends: php-apache, postgresql, php (= 8.5.12-3)
+Description: PostgreSQL modules for PHP/Apache
+Filename: ./php-apache-pgsql_8.5.12-3_aarch64.deb
+Size: 58688
+MD5sum: 414f64a0e1231dcfbb42e9b8647c62e5
+SHA1: 728e8e016fe954910de5831390389704ca15bdb1
+SHA256: 3fe105c9ffad938df0cae8e53a684e16866e63cf982739ab5a26ed831d1baa8e
+
+Package: php-apache-sodium
+Architecture: aarch64
+Installed-Size: 168
+Maintainer: @termux
+Version: 8.5.12-3
+Homepage: https://php.net
+Depends: libsodium, php-apache, php (= 8.5.12-3)
+Description: Sodium module for PHP/Apache
+Filename: ./php-apache-sodium_8.5.12-3_aarch64.deb
+Size: 22184
+MD5sum: 52ff564203716bfcabb8a822a0f81515
+SHA1: 4712ca6173e4452e06cedb896077a0218ab99e96
+SHA256: fffb5d00a438d72ca48eeb91210ac2cc90842b411e6f935a4930e8ae8f9b2174
+
+Package: php-apache
+Architecture: aarch64
+Installed-Size: 24400
+Maintainer: @termux
+Version: 8.5.12-3
+Homepage: https://php.net
+Depends: apache2, apr-util, php (= 8.5.12-3)
+Description: Apache 2.0 Handler module for PHP
+Filename: ./php-apache_8.5.12-3_aarch64.deb
+Size: 3689772
+MD5sum: 586b3bfed19b041e121ae98f2b941955
+SHA1: 90c516179c7df1842cef5b40b9ea9115120be338
+SHA256: 8aaaeccca8d3170a1a9ffa86723b41f5c66bd5a44696edd5aa06e104683f38f9
+
+Package: php-fpm
+Architecture: aarch64
+Installed-Size: 24452
+Maintainer: @termux
+Version: 8.5.12-3
+Homepage: https://php.net
+Depends: php (= 8.5.12-3)
+Breaks: php (<< 8.1.12)
+Replaces: php (<< 8.1.12)
+Description: FastCGI Process Manager for PHP
+Filename: ./php-fpm_8.5.12-3_aarch64.deb
+Size: 3755524
+MD5sum: 31a27511aa426b78226afc88f5833335
+SHA1: 24dc950e6c75104e06b3c3fe29f7422a8381104a
+SHA256: 18f75e3bec119e18275551025ae1f3cd467fed22ca7720d3b5d93b4833f904e3
+
+Package: php-gd
+Architecture: aarch64
+Installed-Size: 168
+Maintainer: @termux
+Version: 8.5.12-3
+Homepage: https://php.net
+Depends: libgd, php (= 8.5.12-3)
+Description: gd module for PHP
+Filename: ./php-gd_8.5.12-3_aarch64.deb
+Size: 30536
+MD5sum: 16fbcd36b1cf5d2af9770b4acb017387
+SHA1: 0c01486c3efd72e2d89c82a40ba79e6841c37ba8
+SHA256: 390c18f53dab5aae87a48dbb01376add617ec9a5336d9b976e8985876e7c42f2
+
+Package: php-ldap
+Architecture: aarch64
+Installed-Size: 136
+Maintainer: @termux
+Version: 8.5.12-3
+Homepage: https://php.net
+Depends: openldap, php (= 8.5.12-3)
+Description: LDAP module for PHP
+Filename: ./php-ldap_8.5.12-3_aarch64.deb
+Size: 25876
+MD5sum: ce847ea7654978a37048642d8a198914
+SHA1: d980f66ca498866b30c968c3014780899ddbebd5
+SHA256: 2f0da280d7cdf372a2edfb80facab9a681285a7a8fac7cac73c20d91da0dcec7
+
+Package: php-pgsql
+Architecture: aarch64
+Installed-Size: 256
+Maintainer: @termux
+Version: 8.5.12-3
+Homepage: https://php.net
+Depends: postgresql, php (= 8.5.12-3)
+Description: PostgreSQL modules for PHP
+Filename: ./php-pgsql_8.5.12-3_aarch64.deb
+Size: 58048
+MD5sum: ae453216f5fbff793842a43b09c57aa9
+SHA1: c7bc20a93215e44b9162a98f879d9bfb037dab35
+SHA256: 7da846ad9dbd138c13a7618eae86c730a5f8a6a27ca61035b815246311277af0
+
+Package: php-sodium
+Architecture: aarch64
+Installed-Size: 144
+Maintainer: @termux
+Version: 8.5.12-3
+Homepage: https://php.net
+Depends: libsodium, php (= 8.5.12-3)
+Description: Sodium module for PHP
+Filename: ./php-sodium_8.5.12-3_aarch64.deb
+Size: 22080
+MD5sum: 09c2f51917897d4a6591dd275fbb7842
+SHA1: 0094684ef4b7b92af560e6e2d2744cb3d20ea6b3
+SHA256: 7b6517accf5fe39f6321ce437f7f6ddbcaf54ca6f1632f826a8ca676d3c25b24
+
+Package: php
+Architecture: aarch64
+Installed-Size: 82328
+Maintainer: @termux
+Version: 8.5.12-3
+Homepage: https://php.net
+Depends: capstone, libandroid-glob, libandroid-support, libbz2, libc++, libcurl, libffi, libgmp, libiconv, libicu, libresolv-wrapper, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl, pcre2, readline, tidy, zlib
+Conflicts: php-mysql, php-dev
+Replaces: php-mysql, php-dev
+Description: Server-side, HTML-embedded scripting language
+Filename: ./php_8.5.12-3_aarch64.deb
+Size: 11948652
+MD5sum: 7e43138b80c6405a90cf6c8c9e821852
+SHA1: cc544048cbb9d4f81cc9f8074d406fc36baeae87
+SHA256: 874b02f3dc3f05c7e72c32137172b19224ec1687b4a34d513c8c873e8a830a65
 
 Package: python-ensurepip-wheels
 Architecture: all
@@ -2178,6 +2463,19 @@ MD5sum: 5664056b4aeb76515995f121593dbff6
 SHA1: 9bf7024065783b55cf57008ba35a46d4a6abc402
 SHA256: 52926f41700d963a5ba5d1d107351728bdd0f9bc3020bc1a0db2dd27ddd1957d
 
+Package: storj-uplink
+Architecture: aarch64
+Installed-Size: 18064
+Maintainer: @termux
+Version: 1.166.2-1
+Homepage: https://github.com/storj/storj
+Description: Storj DCS Uplink CLI
+Filename: ./storj-uplink_1.166.2-1_aarch64.deb
+Size: 4458736
+MD5sum: b085289ebf07cc5ae512f8dbdb112000
+SHA1: 2842841ef605e38b440991533a2b86f27c866b70
+SHA256: 64a5896dd2b2570adfe0b3280ea60c01bdfe2cad4e9b2548dec78ebd63e329a9
+
 Package: subtitleripper
 Architecture: aarch64
 Installed-Size: 140
@@ -2389,6 +2687,19 @@ Size: 13496
 MD5sum: b91515e3f755a716427856ed0439f052
 SHA1: 1134f2802a48374f3fd01785f080cc83d132de00
 SHA256: 5d4bb8d42a6fd660baf3189ed713f646f00e3cee6eec20a3122127b0059b3b4e
+
+Package: youtubedr
+Architecture: aarch64
+Installed-Size: 21336
+Maintainer: Krishna kanhaiya @kcubeterm
+Version: 2.10.8-1
+Homepage: https://github.com/kkdai/youtube
+Description: Download youtube video in Golang
+Filename: ./youtubedr_2.10.8-1_aarch64.deb
+Size: 5305160
+MD5sum: 963f6638d1fada2c808ad9459fbb7b3e
+SHA1: c802cbeb8baedc91be608286c9b93ad33a53035e
+SHA256: 86e244d3ca3dad54e2a71e927ca4a3e613e10dfb58d4d372df205e33160ee720
 
 Package: yq
 Architecture: aarch64
