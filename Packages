@@ -843,6 +843,20 @@ MD5sum: f32b606f1a3d3b9222f1a37d852a8a74
 SHA1: dcec385aea9f178a29dfea1cbcc2d03cba41c2e0
 SHA256: 2a875d65047efda146f08ae09c2afc42975eeb50a890d54e3f3efc178a46216d
 
+Package: intltool
+Architecture: all
+Installed-Size: 224
+Maintainer: @suhan-paradkar
+Version: 0.51.0-5
+Homepage: https://launchpad.net/intltool
+Depends: perl, clang, make, libexpat
+Description: The internationalization tool collection
+Filename: ./intltool_0.51.0-5_all.deb
+Size: 37232
+MD5sum: a35a02bb7bbf692758c0e0cc1cc407a4
+SHA1: 5352088c71cba5d8ac7dc9d049c75cb18031c084
+SHA256: 63a1e5c1cf7626799a7b4969d08b8937f9e1d273357794f4c111a070103861dd
+
 Package: janet
 Architecture: aarch64
 Installed-Size: 792
