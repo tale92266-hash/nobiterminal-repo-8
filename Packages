@@ -2494,6 +2494,20 @@ MD5sum: 532c5687ea134fa0c74b63f8b5f89801
 SHA1: 4320d502d1a4459a3579a67f8920b5167ee4f863
 SHA256: 2ee65e2a8db77ef48a4a24c7f576d7d9e04413e5c3fb9ccb4a1cd656895d9745
 
+Package: shellcheck
+Architecture: aarch64
+Installed-Size: 20408
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.11.0-4
+Homepage: https://www.shellcheck.net/
+Depends: libandroid-posix-semaphore, libandroid-utimes, libffi, libgmp, libiconv
+Description: Shell script analysis tool
+Filename: ./shellcheck_0.11.0-4_aarch64.deb
+Size: 2623356
+MD5sum: 41f30b5ca0800e854fde13a1985fdad0
+SHA1: 5b9ceedc74c1f194409b636ead9892f16fa18c50
+SHA256: 52c4c944f89174c74ccefd361c6a2bdab71c723fa0022d4ea3c96e4084fdb839
+
 Package: simh
 Architecture: aarch64
 Installed-Size: 6644
