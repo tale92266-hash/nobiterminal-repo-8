@@ -220,6 +220,34 @@ MD5sum: 73505e227fc9453023c5c80152a04bf6
 SHA1: e94a85316f7ba1e61e0c6c02af25755085365aa0
 SHA256: 20baa2cac4ae607ed5283fcc0bb7ff36766db9c0376f362d21c9620f0106ace1
 
+Package: dar-static
+Architecture: aarch64
+Installed-Size: 10296
+Maintainer: @termux
+Version: 2.8.6-1
+Homepage: http://dar.linux.free.fr/
+Depends: dar (= 2.8.6-1)
+Description: Static libraries for dar
+Filename: ./dar-static_2.8.6-1_aarch64.deb
+Size: 1112432
+MD5sum: 29657446985bcad14ff8bdf8aa761f40
+SHA1: 028e8f4283ac28d247500cf77c623a8c744bca5b
+SHA256: 38dcd963c9def9d54988a475d56f540c0c445ccfab25883340e96ff7b75e8f9d
+
+Package: dar
+Architecture: aarch64
+Installed-Size: 5912
+Maintainer: @termux
+Version: 2.8.6-1
+Homepage: http://dar.linux.free.fr/
+Depends: attr, libbz2, libc++, libgcrypt, libgpg-error, liblzma, liblzo, zlib, zstd
+Description: A full featured command-line backup tool, short for Disk ARchive
+Filename: ./dar_2.8.6-1_aarch64.deb
+Size: 1343040
+MD5sum: e541473c08820bb006fbfef054e50215
+SHA1: 80941d4d92320695774328b50c6e1f4db130ae94
+SHA256: 8b0274cc162ad7bc69f640f969ea2e50500ddf60e972dbcdc8efdebffddd0f37
+
 Package: desed
 Architecture: aarch64
 Installed-Size: 1204
